@@ -1,22 +1,25 @@
 {
-  "name": "fixpack",
-  "description": "cli tool that cleans up package.json files.",
-  "version": "2.3.0",
+  "name": "@ehacke/fixpack",
+  "description": "cli tool that cleans up package.json files - Forked from fixpack",
+  "version": "0.0.1",
   "author": "Henrik Joreteg <henrik@andyet.net>",
+  "contributors": [
+    "Eric Hacke <ehacke@gmail.com>"
+  ],
   "bin": "./bin/fixpack",
   "bugs": {
-    "url": "https://github.com/henrikjoreteg/fixpack/issues"
+    "url": "https://github.com/ehacke/fixpack/issues"
   },
   "dependencies": {
-    "alce": "1.0.0",
+    "alce": "^1.2.0",
     "colors": "*",
     "extend-object": "^1.0.0",
-    "rc": "^0.6.0"
+    "rc": "^1.2.8"
   },
   "devDependencies": {
-    "standard": "^3.2.1"
+    "standard": "^12.0.1"
   },
-  "homepage": "https://github.com/henrikjoreteg/fixpack",
+  "homepage": "https://github.com/ehacke/fixpack",
   "keywords": [
     "cleanup",
     "package"
@@ -26,7 +29,7 @@
   "preferGlobal": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/henrikjoreteg/fixpack"
+    "url": "git://github.com/ehacke/fixpack"
   },
   "scripts": {
     "test": "standard && standard bin/fixpack"
