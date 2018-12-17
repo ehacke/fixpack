@@ -1,7 +1,7 @@
 {
   "name": "@ehacke/fixpack",
   "description": "cli tool that cleans up package.json files - Forked from fixpack",
-  "version": "2.3.1",
+  "version": "2.3.2",
   "author": "Henrik Joreteg <henrik@andyet.net>",
   "contributors": [
     "Eric Hacke <ehacke@gmail.com>"
