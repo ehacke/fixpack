@@ -31,6 +31,12 @@
     "type": "git",
     "url": "git://github.com/ehacke/fixpack"
   },
+  "files": [
+    "fixpack.js",
+    "bin/fixpack",
+    "config",
+    "package-lock.json"
+  ],
   "scripts": {
     "test": "standard && standard bin/fixpack"
   }
